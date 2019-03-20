@@ -7,11 +7,11 @@ fa-icon: graduation-cap
 
 I graduated from Montana Tech of the University of Montana, with the following degrees:  
 - Master of Science in Technical Communication
-    + Emphasis on Technical Writing and Software Documentation
+  + Emphasis on Technical Writing and Software Documentation
 - Bachelor of Science in Professional and Technical Communication
-    + Minor in Computer Science
+  + Minor in Computer Science
 - Bachelor of Science in Business and Information Technology
-    + Minor in Mathematics
+  + Minor in Mathematics
 
 Thanks to my hard work and dedication, I completed my secondary education in just six years.  In addition, I am a Horatio Alger Scholar, and a Northrup Grumman Diversity Scholar.
 
