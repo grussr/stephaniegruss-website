@@ -20,6 +20,10 @@
 	#Buttons
 	#Forms
 	#Misc */
+.fa {
+	font-size: 0.7em !important;
+
+}
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
