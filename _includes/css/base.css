@@ -21,12 +21,6 @@
 	#Forms
 	#Misc */
 
-{% for node in site.posts %}
-  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-  {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
-  {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
-{% endfor %}
-
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -86,7 +80,7 @@
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-blockquote, blockquote p { font-size: 17px; line-height: 24px; color: {{ fg }}; font-style: italic; }
+blockquote, blockquote p { font-size: 17px; line-height: 24px; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
